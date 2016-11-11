@@ -9,7 +9,7 @@ public class Summator extends Processor {
 
     @Override
     public FInteger process(FInteger d, FInteger c){
-        return c.sum(d);
+        return d.sum(c);
     }
 
 }
