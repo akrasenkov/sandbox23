@@ -1,7 +1,7 @@
 public class Divider extends Processor {
 
     public Divider() {
-        this.name = "Devider";
+        this.name = "Divider";
     }
 
     @Override
