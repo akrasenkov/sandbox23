@@ -3,8 +3,8 @@ public class Main {
     private static Calculator calc;
  public Main(){
      calc = new Calculator(
-             new Amplifier(),
              new Summator(),
+             new Amplifier(),
              new Divider(),
              new Contractor()
      );

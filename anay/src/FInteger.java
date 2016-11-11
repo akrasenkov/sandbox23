@@ -17,7 +17,7 @@ public class FInteger {
         c = new FInteger(c1);
         return c;*/
 
-        return new FInteger(value + b.getValue());
+        return new FInteger((value + b.getValue()));
     }
 
     public FInteger contract(FInteger b) {

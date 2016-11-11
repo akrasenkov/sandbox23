@@ -8,8 +8,8 @@ public class Amplifier extends Processor{
     }
 
     @Override
-    public FInteger process(FInteger i, FInteger o) {
-        return i.amplify(o);
+    public FInteger process(FInteger a, FInteger b) {
+        return a.amplify(b);
     }
 
 }
