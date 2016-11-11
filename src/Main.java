@@ -2,14 +2,7 @@ public class Main {
 
     public static Calculator calc;
 
-    public static void main(String[] args) {
-
-        Main main = new Main();
-
-
-    }
-
-    public Main(){
+    public void init(){
 
         calc = new Calculator(
                 new Summator(),
@@ -17,6 +10,12 @@ public class Main {
                 new Divider(),
                 new Contractor()
         );
+
+    }
+
+    public void run(){
+
+
         System.out.println(calc.amp(
                 new FInteger(3),
                 new FInteger(4)
@@ -33,6 +32,15 @@ public class Main {
                 new FInteger(15),
                 new FInteger(13)
         ).getValue());
+
+    }
+
+    public static void main(String[] args) {
+
+        Main main = new Main();
+        main.init();
+        main.run();
+
 
     }
 
