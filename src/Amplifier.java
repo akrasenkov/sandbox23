@@ -1,5 +1,3 @@
-package www.shooone;
-
 public class Amplifier extends Processor {
 
     public Amplifier() {

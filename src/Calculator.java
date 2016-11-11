@@ -1,5 +1,3 @@
-package www.shooone;
-
 public class Calculator {
 
     private Processor amplifier;

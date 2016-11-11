@@ -1,5 +1,3 @@
-package www.shooone;
-
 public class Contractor extends Processor{
 
     public Contractor() {

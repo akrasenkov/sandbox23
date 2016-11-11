@@ -1,5 +1,3 @@
-package www.shooone;
-
 public class FIntegerBroken extends FInteger {
 
     public FIntegerBroken(int value) {

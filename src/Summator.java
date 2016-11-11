@@ -1,5 +1,3 @@
-package www.shooone;
-
 public class Summator extends Processor {
 
     public Summator() {
