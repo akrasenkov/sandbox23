@@ -1,3 +1,5 @@
+package www.shooone;
+
 public class FInteger {
 
     protected int value;

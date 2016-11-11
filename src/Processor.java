@@ -1,3 +1,5 @@
+package www.shooone;
+
 public abstract class Processor {
 
     public String name;
