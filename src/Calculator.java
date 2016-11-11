@@ -20,7 +20,7 @@ public class Calculator {
         return amplifier.process(a, b);
     }
 
-    public FInteger div(FInteger a, FInteger b){ return divider.process(a, b);}
+    public FInteger div(FInteger a, FInteger b) { return divider.process(a, b); }
 
-    public FInteger con(FInteger a, FInteger b) { return contractor.process(a, b);}
+    public FInteger con(FInteger a, FInteger b) { return contractor.process(a, b); }
 }
