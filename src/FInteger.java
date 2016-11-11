@@ -14,7 +14,9 @@ public class FInteger {
         return new FInteger(value - b.getValue());
     }
 
-    public FInteger divide(FInteger b) { return new FInteger(value / b.getValue()); }
+    public FInteger divide(FInteger b) { 
+        return new FInteger(value / b.getValue()); 
+    }
 
     public FInteger amplify(FInteger b) {
         return new FInteger(value * b.getValue());
