@@ -7,6 +7,9 @@ public class Main {
     }
 
     public Main(){
+        init();
+    }
+    public void init(){
         calc = new Calculator(
                 new Amplifier(),
                 new Summator(),
