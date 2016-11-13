@@ -5,11 +5,12 @@ public class Calculator {
     protected Processor divider;
     protected Processor contractor;
 
-    public Calculator(Processor amplifier, Processor summator, Processor divider, Processor contractor) {
-        this.amplifier = amplifier;
+    public Calculator(Processor summator, Processor contractor, Processor amplifier, Processor divider) {
         this.summator = summator;
-        this.divider = divider;
         this.contractor = contractor;
+        this.amplifier = amplifier;     
+        this.divider = divider;
+       
     }
 
     public FInteger sum(FInteger a, FInteger b) {
