@@ -8,4 +8,5 @@ public class FIntegerBroken extends FInteger {
     public FInteger sum(FInteger b) {
         return new FInteger(value + b.getValue() + 500);
     }
+
 }
