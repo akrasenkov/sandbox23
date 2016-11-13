@@ -1,13 +1,12 @@
 public class FIntegerBroken extends FInteger {
 
-    public FIntegerBroken(int value) {
+    public FIntegerBroken(int value){
         super(value);
     }
 
     @Override
     public FInteger sum(FInteger b) {
-    return
-    new FInteger(value + b.getValue() + 500);
+        return new FInteger(value + b.getValue() + 500);
     }
 
 }

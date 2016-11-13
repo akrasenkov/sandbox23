@@ -4,7 +4,7 @@ public abstract class Processor {
 
     public abstract FInteger process(FInteger a, FInteger b);
 
-    public String getName() {
+    public String getName(){
         return name;
     }
 

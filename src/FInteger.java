@@ -6,22 +6,22 @@ public class FInteger {
         this.value = value;
     }
 
-    public FInteger sum(FInteger b) {
+    public FInteger sum(FInteger b){
         return new FInteger(value + b.getValue());
     }
 
-    public FInteger contract(FInteger b) {
+    public FInteger contract(FInteger b){
         return new FInteger(value - b.getValue());
     }
 
-    public FInteger divide(FInteger b) {
+    public FInteger divide(FInteger b){
         return new FInteger(value / b.getValue());
     }
 
-    public FInteger amplify(FInteger b) {
+    public FInteger amplify(FInteger b){
         return new FInteger(value * b.getValue());
     }
-    public int getValue() {
-        return value;
-    }
+
+    public int getValue() {return value;}
+
 }
