@@ -6,8 +6,8 @@ public class FIntegerBroken extends FInteger {
 
     @Override
     public FInteger sum(FInteger b) {
-    return
-    new FInteger(value + b.getValue() + 500);
+        return
+                new FInteger(value + b.getValue() + 500);
     }
 
 }

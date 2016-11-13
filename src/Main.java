@@ -5,7 +5,9 @@ public class Main {
     public static void main(String[] args) {
         calc = new Calculator(
                 new Summator(),
-                new Amplifier()
+                new Amplifier(),
+                new Divider(),
+                new Constractor()
         );
         System.out.println(calc.amp(
                 new FInteger(3),
