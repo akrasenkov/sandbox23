@@ -8,5 +8,4 @@ public class Amplifier extends Processor {
     public FInteger process(FInteger a, FInteger b) {
         return a.amplify(b);
     }
-
 }

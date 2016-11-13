@@ -1,4 +1,4 @@
-public class Summator extends Processor {
+public class Summator extends Processor{
 
     public Summator() {
         this.name = "Summator";
