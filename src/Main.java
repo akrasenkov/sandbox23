@@ -8,7 +8,7 @@ public class Main {
                 new Divider()
         );
         System.out.println(calc.amp(
-                new FInteger(3),
+                new FInteger(5),
                 new FInteger(4)
         ).getValue());
         System.out.println(calc.sum(
