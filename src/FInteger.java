@@ -4,6 +4,7 @@ public class FInteger {
 
     public FInteger(int value) {
         this.value = value;
+
     }
 
     public FInteger sum(FInteger b) {
