@@ -5,8 +5,8 @@ public class Summator extends Processor {
     }
 
     @Override
-    public FInteger process(FInteger c, FInteger d) {
-        return c.sum(d);
+    public FInteger process(FInteger a, FInteger b) {
+        return a.sum(b);
     }
 
 }
