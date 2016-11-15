@@ -1,3 +1,5 @@
+package gov.nasa;
+
 public class Summator extends Processor {
 
     public Summator() {
@@ -5,7 +7,7 @@ public class Summator extends Processor {
     }
 
     @Override
-    public FInteger process(FInteger c, FInteger d) {
+    public Eenteger process(Eenteger c, Eenteger d) {
         return c.sum(d);
     }
 

@@ -1,3 +1,5 @@
+package gov.nasa;
+
 public class Amplifier extends Processor {
 
     public Amplifier() {
@@ -5,8 +7,8 @@ public class Amplifier extends Processor {
     }
 
     @Override
-    public FInteger process(FInteger a, FInteger b) {
-        return a.amplify(b);
+    public Eenteger process(Eenteger a, Eenteger b) {
+        return a.multiply(b);
     }
 
 }
