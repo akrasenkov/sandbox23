@@ -6,7 +6,7 @@ public class Amplifier extends Processor {
 
     @Override
     public FInteger process(FInteger a, FInteger b) {
-        return a.amplify(b);
+        return a.amp(b);
     }
 
 }

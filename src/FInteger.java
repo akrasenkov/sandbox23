@@ -10,15 +10,15 @@ public class FInteger {
         return new FInteger(value + b.getValue());
     }
 
-    public FInteger contract(FInteger b) {
+    public FInteger con(FInteger b) {
         return new FInteger(value - b.getValue());
     }
 
-    public FInteger divide(FInteger b) {
+    public FInteger div(FInteger b) {
         return new FInteger(value / b.getValue());
     }
 
-    public FInteger amplify(FInteger b) {
+    public FInteger amp(FInteger b) {
         return new FInteger(value * b.getValue());
     }
     public int getValue() {
