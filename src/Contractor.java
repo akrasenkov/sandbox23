@@ -2,8 +2,8 @@
  * Created by Lodven on 15.11.2016.
  */
 
-public class Contract extends Processor {
-    public Contract() {this.name="Contract";}
+public class Contractor extends Processor {
+    public Contractor() {this.name="Contractor";}
 
     @Override
     public FInteger process(FInteger a, FInteger b) {

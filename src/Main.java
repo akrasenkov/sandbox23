@@ -4,8 +4,8 @@ public class Main {
         calc = new Calculator(
                 new Summator(),
                 new Amplifier(),
-                new Contract(),
-                new Divide()
+                new Contractor(),
+                new Diveder()
         );
 
         System.out.println(calc.amp(
