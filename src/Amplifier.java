@@ -1,5 +1,5 @@
-public class Amplifier extends Processor {
 
+public class Amplifier  extends Processor{
     public Amplifier() {
         this.name = "Amplifier";
     }
