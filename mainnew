@@ -1,0 +1,41 @@
+public class Main {
+
+    public static Calculator calc;
+
+    public static void main(String[] args) {
+        Main main = new Main();
+    }
+
+    public Main(){
+        init();
+    }
+    public void init(){
+        calc = new Calculator(
+                new Amplifier(),
+                new Summator(),
+                new Contractor(),
+                new Divider()
+        );
+
+        System.out.println("7 * 21 = " + calc.amp(
+                new FInteger(7),
+                new FInteger(21)
+        ).getValue());
+
+        System.out.println("37 + 14 = " + calc.sum(
+                new FInteger(37),
+                new FInteger(14)
+        ).getValue());
+
+        System.out.println("32 - 17 = " + calc.cont(
+                new FInteger(32),
+                new FInteger(17)
+        ).getValue());
+
+        System.out.println("145 / 5 = " + calc.div(
+                new FInteger(145),
+                new FInteger(5)
+        ).getValue());
+    }
+
+}
